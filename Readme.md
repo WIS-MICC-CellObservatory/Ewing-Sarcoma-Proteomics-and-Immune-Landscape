@@ -35,10 +35,8 @@ Two example overlay images are shown below (placeholders):
 
 | Input Overlay 1 | Input Overlay 2 |
 |-----------------|-----------------|
-| ![Overlay 1](spheroids/SampleData/results/overlay1_placeholder.png) | ![Overlay 2](spheroids/SampleData/results/overlay2_placeholder.png) |
+| ![Overlay 1](spheroids/SampleData/results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B2_Overlay.png) | ![Overlay 2](spheroids/SampleData/results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B10_Overlay.png) |
 
-👉 **Put your overlay images in**: `spheroids/SampleData/results/`  
-Name them `overlay1_placeholder.png` and `overlay2_placeholder.png` until you replace with real outputs.
 
 ---
 
@@ -57,9 +55,8 @@ Name them `overlay1_placeholder.png` and `overlay2_placeholder.png` until you re
 2. Drag & drop the script `spheroids/SegmentAndMeasureSpheroids.ijm` into Fiji.  
 3. Configure the parameters (screenshot placeholder below):  
 
-   ![Parameters Screenshot](spheroids/SampleData/results/parameters_placeholder.png)  
-   👉 Save a screenshot of the parameters window as `parameters_placeholder.png` inside `spheroids/SampleData/results/`.
-
+   ![Parameters Screenshot](spheroids/SpheroidsGUI.png)  
+   
 #### Parameters
 
 - **RunMode**: `Segment` or `Update`  
@@ -78,7 +75,7 @@ Results are saved under the `spheroids/SampleData/results/` folder.
 For each input file (`FILENAME`):
 
 - `FILENAME_DetailedResults.xls`  
-- `FILENAME_Overlayf`  
+- `FILENAME_Overlay.tif`  
 - `FILENAME_SpheroidRoiSet.roi`  
 
 Aggregated results:
