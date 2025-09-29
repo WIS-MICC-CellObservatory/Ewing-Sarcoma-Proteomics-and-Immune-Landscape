@@ -1,0 +1,15 @@
+macroVersion=v1
+RunTime=Date: Mon 29-Sep-2025, Time: 17:24:43
+runMode=Segment
+processMode=wholeFolder
+fileExtension=.czi
+SpheroidColor=magenta
+LineWidth=5
+CellposeEnvPath=C:\ProgramData\anaconda3\envs\cellpose3
+CellposeModel=
+CellposeOwnModelPath=A:\vishnum\CodesForEWSPaper\ForEWSGithub\Spheroids\CP_SpheroidModel_20250724_090423
+CellposeDiameter=1275
+CellposeCh1=0
+CellposeCh2=-1
+CellposeAdditionalFlags=--use_gpu
+SpheroidRoisSuffix=_SpheroidRoiSet
