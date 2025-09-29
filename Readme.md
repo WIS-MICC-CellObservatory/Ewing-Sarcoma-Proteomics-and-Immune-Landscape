@@ -35,7 +35,7 @@ Two example overlay images are shown below (placeholders):
 
 | Input Overlay 1 | Input Overlay 2 |
 |-----------------|-----------------|
-| ![Overlay 1](spheroids/SampleData/results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B2_Overlay.png) | ![Overlay 2](spheroids/SampleData/results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B10_Overlay.png) |
+| ![Overlay 1](Spheroids/SampleData/Results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B2_Overlay.png) | ![Overlay 2](Spheroids/SampleData/Results/png/010625-A673_Parental_ETOPOSIDE-DOXO_B10_Overlay.png) |
 
 
 ---
