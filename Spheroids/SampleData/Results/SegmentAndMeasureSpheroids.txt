@@ -1,5 +1,5 @@
 macroVersion=v1
-RunTime=Date: Mon 29-Sep-2025, Time: 17:24:43
+RunTime=Date: Mon 29-Sep-2025, Time: 16:04:04
 runMode=Segment
 processMode=wholeFolder
 fileExtension=.czi
