@@ -1,6 +1,6 @@
-# [Paper Title Here]
+# [Proteomic landscapes of Ewing sarcoma unravel immunological regulation of tumor progression ]
 
-**Authors:** [List of Authors Here]  
+**Authors:** [Sagi Gordon, Rachel Shukrun, Vishnu Mohan, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger]  
 **DOI:** [To be added upon publication]
 
 ---
@@ -11,7 +11,7 @@ This repository documents the image analysis workflows used in the paper.
 It consists of two main parts:
 
 1. [Section to be described later]  
-2. **Spheroids analysis** (detailed below)
+2. **Spheroids analysis** 
 
 ---
 
