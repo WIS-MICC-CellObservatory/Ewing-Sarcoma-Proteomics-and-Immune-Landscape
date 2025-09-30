@@ -55,7 +55,7 @@ Two example overlay images are shown below (placeholders):
 2. Drag & drop the script `spheroids/SegmentAndMeasureSpheroids.ijm` into Fiji.  
 3. Configure the parameters (screenshot placeholder below):  
 
-   ![Parameters Screenshot](spheroids/SpheroidsGUI.png)  
+   ![Parameters Screenshot](spheroids\SpheroidsGUI.png)  
    
 #### Parameters
 
