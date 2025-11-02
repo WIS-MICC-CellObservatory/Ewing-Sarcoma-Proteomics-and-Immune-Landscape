@@ -31,7 +31,7 @@ iii) Panel III: NKX2.2, CD68, HLAII, MRC1, PSMA3 and hochest
 
 Quantification of each panel was done using the following workflow: 
 
-Nuclear segmentation was performed using the “Nuclei” model of **Cellpose** 2.0 followed by expansion (estimated diameter of 14 pixels, expansion of up to 5 pixels) as implemented in the Qupath Cellpose extension v0.9.6.  A Random Trees machine learning object classifier was trained in **Qupath** v0.5.1 on a training panel of representative stitched regions of 500*500µm from multiple slides. Proteomic regions of interest (ROIs) were manually annotated on the Opal slides with guidance from consecutive H&E sections. All downstream analysis were performed with percentage of cells expressing the marker in  these P-ROIs. 
+Nuclear segmentation was performed using the “Nuclei” model of **Cellpose** 2.0 followed by expansion (estimated diameter of 14 pixels, expansion of up to 5 pixels) as implemented in the Qupath Cellpose extension v0.9.6.  Nuclei larger than 180 un^2 were discarded after expansion. A Random Trees machine learning object classifier was trained in **Qupath** v0.5.1 on a training panel of representative stitched regions of 500*500µm from multiple slides. Proteomic regions of interest (ROIs) were manually annotated on the Opal slides with guidance from consecutive H&E sections (set to class "Proteomics ROI"). All downstream analysis were performed with percentage of cells expressing the marker in  these P-ROIs. 
 
 This workflow was implemented as QuPath script.. 
 
