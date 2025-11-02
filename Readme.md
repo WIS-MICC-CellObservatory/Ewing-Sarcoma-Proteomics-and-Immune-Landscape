@@ -1,6 +1,6 @@
 # [Proteomic landscapes of Ewing sarcoma unravel immunological regulation of tumor progression ]
 
-**Authors:** [Sagi Gordon, Rachel Shukrun, Vishnu Mohan, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger]  
+**Authors:** [Sagi Gordon, Vishnu Mohan, Rachel Shukrun, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger]  
 **DOI:** [To be added upon publication]
 
 ---
@@ -10,10 +10,22 @@
 This repository documents the image analysis workflows used in the paper.  
 It consists of two main parts:
 
-1. [Section to be described later]  
-2. **Spheroids analysis** 
+1. **Immunu-Fluorescence Panels**
 
+Image data are available in the BioImage Archive (http://www.ebi.ac.uk/bioimage-archive) under accession number S-BIAD1597.
+      
+3. **Spheroids analysis** 
+
+ 
 ---
+
+## Immunu-Fluorescence Panels
+
+### Overview
+
+Nuclear segmentation was performed using the “Nuclei” model of **Cellpose** 2.0 followed by expansion (estimated diameter of 14 pixels, expansion of up to 5 pixels) as implemented in the Qupath Cellpose extension v0.9.6.  A Random Trees machine learning object classifier was trained in **Qupath** v0.5.1 on a training panel of representative stitched regions of 500*500µm from multiple slides. Proteomic regions of interest (ROIs) were manually annotated on the Opal slides with guidance from consecutive H&E sections. All downstream analysis were performed with percentage of cells expressing the marker in  these P-ROIs. 
+
+This workflow was implemented as QuPath script.. 
 
 ## Spheroids Analysis
 
