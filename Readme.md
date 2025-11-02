@@ -11,11 +11,11 @@
 This repository documents the image analysis workflows used in the paper.  
 It consists of two main parts:
 
-1. **Immunu-Fluorescence Panels**
+1. Immunu-Fluorescence Panels
 
-Image data are available in the BioImage Archive (http://www.ebi.ac.uk/bioimage-archive) under accession number S-BIAD1597.
+   Image data are available in the BioImage Archive (http://www.ebi.ac.uk/bioimage-archive) under accession number S-BIAD1597.
       
-3. **Spheroids analysis** 
+2. Spheroids analysis
 
  
 ---
