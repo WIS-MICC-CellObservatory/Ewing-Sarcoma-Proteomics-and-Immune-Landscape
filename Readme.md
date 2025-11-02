@@ -1,6 +1,7 @@
 # Proteomic landscapes of Ewing sarcoma unravel immunological regulation of tumor progression 
 
 **Authors:** Sagi Gordon, Vishnu Mohan, Rachel Shukrun, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger
+
 **DOI:** [To be added upon publication]
 
 ---
