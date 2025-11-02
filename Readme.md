@@ -1,6 +1,6 @@
-# [Proteomic landscapes of Ewing sarcoma unravel immunological regulation of tumor progression ]
+# Proteomic landscapes of Ewing sarcoma unravel immunological regulation of tumor progression 
 
-**Authors:** [Sagi Gordon, Vishnu Mohan, Rachel Shukrun, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger]  
+**Authors:** Sagi Gordon, Vishnu Mohan, Rachel Shukrun, Ofra Golani, Shani Metzger, Osnat Sher, Michal Manisterski, Roni Oren, Liat Fellus-Alyagor, Lir Beck, Yoseph Addadi, Benjamin Dekel, Ronit Elhasid and Tamar Geiger
 **DOI:** [To be added upon publication]
 
 ---
@@ -33,7 +33,7 @@ Quantification of each panel was done using the following workflow:
 
 Nuclear segmentation was performed using the “Nuclei” model of **Cellpose** 2.0 followed by expansion (estimated diameter of 14 pixels, expansion of up to 5 pixels) as implemented in the Qupath Cellpose extension v0.9.6.  Nuclei larger than 180 un^2 were discarded after expansion. A Random Trees machine learning object classifier was trained in **Qupath** v0.5.1 on a training panel of representative stitched regions of 500*500µm from multiple slides. Proteomic regions of interest (ROIs) were manually annotated on the Opal slides with guidance from consecutive H&E sections (set to class "Proteomics ROI"). All downstream analysis were performed with percentage of cells expressing the marker in  these P-ROIs. 
 
-This workflow was implemented as QuPath script.. 
+This workflow is implemented as QuPath script **RunCellpose_WholeTissue_IF_Panel.groovy**. Set *CellClassifierName* based on the analyzed panel 
 
 ## Spheroids Analysis
 
